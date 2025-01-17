@@ -12,7 +12,6 @@ A discrete event-driven supermarket checkout lane simulation system implemented 
 
 ## Requirements
 - DrRacket 8.0+
-- Windows 10/11
 - Git (optional)
 
 ## Installation
@@ -20,6 +19,7 @@ A discrete event-driven supermarket checkout lane simulation system implemented 
 Using Git:
 ```powershell
 git clone https://github.com/shiyon404/Supermarket-Simulation-in-Scheme.git
+
 cd Supermarket-Simulation-in-Scheme
 ```
 
@@ -37,36 +37,12 @@ Manual installation:
 - Queue length monitoring
 
 ## Components
-- 
-
-sim-sim.rkt
-
- - Main simulation engine
-- 
-
-sim-event.rkt
-
- - Event handling
-- 
-
-sim-lane.rkt
-
- - Lane management
-- 
-
-sim-utils.rkt
-
- - Utility functions
-- 
-
-sim-event-queue.rkt
-
- - Priority queue
-- 
-
-sim-lane-list.rkt
-
- - Lane selection logic
+- `sim-sim.rkt` - Main simulation engine
+- `sim-event.rkt` - Event handling
+- `sim-lane.rkt` - Lane management
+- `sim-utils.rkt` - Utility functions
+- `sim-event-queue.rkt`- Priority queue
+- `sim-lane-list.rkt` - Lane selection logic
 
 ## Usage
 1. Run the simulation:
@@ -80,14 +56,10 @@ N (number of customers)
 M (number of lanes)
 ```
 
-## License
-MIT License. See 
-
-LICENSE
-
- for details.
-
 ## Contributors
-- shiyon404
-- Abhishek Soni (001344975)
-- Shiyon Suresh (001306030)
+- Shiyon Suresh 
+- Abhishek Soni
+
+## License
+This project is licensed under the MIT License
+
